@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ReserveIT0.0.0.1</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_pass_empty">Password is empty</string>
+    <string name="error_not_character">Password not include invalid character</string>
+    <string name="error_pass_bigLetter">Password not include Big Letter</string>
+    <string name="error_pass_letter">Password not include Small Letter</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login">LOGIN</string>
+    <string name="haveAnAccount">You don\'t have account?</string>
+    <string name="createAccount">Create   Account</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="title_activity_restaurant_login">restaurantLogin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_profile">My Profile</string>
+    <string name="add_plan">Add Plan</string>
+    <string name="brach_name">Brach Name:</string>
+    <string name="location">Location:</string>
+    <string name="floors">FLOORS</string>
+    <string name="send_approval_request">Send Approval Request</string>
+    <string name="title_activity_kullanici_profile">kullaniciProfile</string>
+    <string name="select_field">Select Field</string>
+    <string name="save">SAVE</string>
+    <string name="corporate_name">Corporate Name</string>
+    <string name="password">Password</string>
+    <string name="surname">SURNAME</string>
+    <string name="fname">FIRST NAME</string>
+    <string name="user_name">USER NAME</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="customer">Customer</string>
+</resources>

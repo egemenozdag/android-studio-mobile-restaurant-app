@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".restaurantProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+             />
+
+        <TextView
+            android:id="@+id/RestName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="PIRZOLACI YUSUF USTA "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CUKURAMBAR/ANKARA"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/menuResim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/menu"
+                android:layout_width="66dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="MENU:"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageMenu"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                 />
+
+            <Button
+                android:id="@+id/addMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Menu " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/planResim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/plan"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="PLAN:"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagePlan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                 />
+
+            <Button
+                android:id="@+id/addPlan"
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Plan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/evaluation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/EvaluationReport"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="REPORT:"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/addReport"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Report"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/editButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editDesign"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:text="EDIT DESIGN" />
+
+            <Button
+                android:id="@+id/editREST"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EDIT RESTAURANT" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/SpareTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPARE TABLE" />
+
+        <Button
+            android:id="@+id/reservations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="reservations" />
+
+    </LinearLayout>
+</RelativeLayout>
